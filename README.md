@@ -1,4 +1,7 @@
 # NASA's mars-news
+web site: https://static.bc-edx.com/data/web/mars_news/index.html
+          https://static.bc-edx.com/data/web/mars_facts/temperature.html
+          
 part 1 Scrape Titles and Preview Text from Mars News
 
 we are working on this code and the steps below to scrape the Mars News website.
