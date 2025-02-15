@@ -5,3 +5,6 @@ we should inspect the Mars News website to identify the tags that hold the title
 
 Scrape the Titles and Preview Text: Use BeautifulSoup to find the elements containing the article titles and preview text. Below is an example of how to scrape this data
 Once the data is scraped and stored in the news_data list, print it out
+
+
+web site https://static.bc-edx.com/data/web/mars_news/index.html
