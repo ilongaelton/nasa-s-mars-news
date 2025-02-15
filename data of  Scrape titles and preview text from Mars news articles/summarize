@@ -1,1 +1,7 @@
+first, we set up our environment and  Ensure the required libraries are installed. You can install them with the following command if needed
+secondly, we import the necessary libraries, we Use requests to access the Mars News website, and  After getting the HTML content of the page, 
+we create a BeautifulSoup object to parse it.
+we should inspect the Mars News website to identify the tags that hold the title and preview text. These could be inside <div>, <article>, or other HTML elements. From the inspection, you may find that the articles are inside a specific class, for example, "slide" or "content_title". You can use these classes to extract data.
 
+Scrape the Titles and Preview Text: Use BeautifulSoup to find the elements containing the article titles and preview text. Below is an example of how to scrape this data
+Once the data is scraped and stored in the news_data list, print it out
