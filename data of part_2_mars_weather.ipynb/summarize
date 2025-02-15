@@ -1,1 +1,16 @@
+For Part 2 of this exercise, we'll scrape and analyze Mars weather data from the provided URL (https://static.bc-edx.com/data/web/mars_facts/temperature.html). The goal is to extract data from an HTML table, organize it into a Pandas DataFrame, clean up the data, and perform some analysis on the temperature and atmospheric pressure on Mars.
 
+Here's a step-by-step guide to complete the task in our Jupyter Notebook
+
+We set up our Environment and we Ensured that we had the required libraries installed
+we request, BeautifulSoup, pandas, and matplotlib for the analysis and plotting.
+Once we have the HTML content, use BeautifulSoup to parse it.
+we  iterate through the rows and extract the data from each column in the table. You'll need to grab the text from each <td> tag inside each <tr>
+We convert the list of dictionaries into a Pandas data frame and ensure the columns have the correct data types (e.g., terrestrial_date should be a DateTime, min_temp and pressure should be float
+we analyze the Data:
+                   Number of months on Mars: Find the unique values in the month column to see how many distinct Martian months there are.
+                   Number of Martian days in the dataset: Find how many unique sol values there are.
+                   Coldest and warmest months: Group by the month and calculate the average min_temp for each month. 
+                   Months with the lowest and highest atmospheric pressure: Similarly, group by month and calculate the average pressure
+                   Estimate the number of Earth days in a Martian year: To estimate the number of Earth days in a Martian year, plot the daily minimum temperature and visually estimate the period that corresponds to a Martian year. You can also look up that the Martian year is approximately 687 Earth days, but this task will estimate it from the plot.
+we want to save the scraped and cleaned data for later use, and export the DataFrame to a CSV file.
