@@ -13,4 +13,5 @@ we analyze the Data:
                    Coldest and warmest months: Group by the month and calculate the average min_temp for each month. 
                    Months with the lowest and highest atmospheric pressure: Similarly, group by month and calculate the average pressure
                    Estimate the number of Earth days in a Martian year: To estimate the number of Earth days in a Martian year, plot the daily minimum temperature and visually estimate the period that corresponds to a Martian year. You can also look up that the Martian year is approximately 687 Earth days, but this task will estimate it from the plot.
-we want to save the scraped and cleaned data for later use, and export the DataFrame to a CSV file.
+we want to save the scraped and cleaned data for later use and export the DataFrame to a CSV file.
+web site https://static.bc-edx.com/data/web/mars_facts/temperature.html
